@@ -23,7 +23,7 @@ const LeftUpper = styled.section`
   width: 90vh;
   display: flex;
   height: 50vh;
-  background-color: blue;
+ 
 `;
 
 const RightUpper = styled.section`
