@@ -1,6 +1,6 @@
 import React, {Component} from "react"
 import styled from "styled-components";
-
+import './MainTop.css';
 
 const Wrapper = styled.section`
   width: 100%;
@@ -11,12 +11,14 @@ const Wrapper = styled.section`
 
 
 
+
+
 class MainTop extends Component {
     render() {
       return (
        
         <div className="App">
-          <Wrapper><div>  </div></Wrapper>
+          <Wrapper><img className="guy"  src={require("./see.png")} /></Wrapper>
         </div>
       
       );

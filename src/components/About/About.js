@@ -84,7 +84,7 @@ class About extends Component {
               <p>I enjoy disecting difficult problems into their simplest terms.<br/>When i'm not conding, i love to play video games like<br/> hearthstone and league of legends,or you can always find <br/>me reading a good book.If you ever meet me <br/>dont be afraid to say a good joke</p>
             </LeftM>
             <RightM>
-            <img className="pro"   src={require("./profile.png")} />
+            <img className="pro"   src={require("./prof.jpg")} />
             
             </RightM>
            </Main>
