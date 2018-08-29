@@ -1,4 +1,20 @@
-.guy{
-    height:80%;
-    width:80%;
+.ima{
+    
+    
+    background-image: linear-gradient(
+        to bottom,
+        rgba(207, 104, 102, 0.4),
+        rgba(207, 104, 102, 0.2)
+      ), url(https://cdn.pixabay.com/photo/2014/10/22/16/38/boy-498197_960_720.jpg);
+   
+}
+
+.tex{
+    font-size: 300%;
+}
+.fac{
+    height:200px;
+    width:200;
+    margin-top:100px;
+    margin-left:875px;
 }

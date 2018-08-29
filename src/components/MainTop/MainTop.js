@@ -6,9 +6,15 @@ const Wrapper = styled.section`
   width: 100%;
   margin: auto;
   display: flex;
-  height:65vh;
+  height:70vh;
   background-color:white;`;
 
+const MiddleTop = styled.section`
+margin-left:40%;
+margin-top:280px;
+color:white;
+position:absolute;
+`
 
 
 
@@ -18,7 +24,7 @@ class MainTop extends Component {
       return (
        
         <div className="App">
-          <Wrapper><img className="guy"  src={require("./see.png")} /></Wrapper>
+          <Wrapper className="ima"><div><img class="fac" src={require("./face.png")} /></div><MiddleTop><div className="tex">Cristian Gonzalez</div> <br/><p>I am a full stack web developer</p><p>looking for a full time position</p></MiddleTop></Wrapper>
         </div>
       
       );

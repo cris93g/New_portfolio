@@ -8,7 +8,7 @@ const Wrapper = styled.section`
   display: flex;
   height: 90px;
   background-color:black;
- 
+ position:sticky;
 `;
 const Brand = styled.section`
 width:40%;
