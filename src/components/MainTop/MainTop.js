@@ -6,12 +6,12 @@ const Wrapper = styled.section`
   width: 100%;
   margin: auto;
   display: flex;
-  height:70vh;
+  height:50vh;
   background-color:white;`;
 
 const MiddleTop = styled.section`
 margin-left:40%;
-margin-top:280px;
+margin-top:180px;
 color:white;
 position:absolute;
 `
