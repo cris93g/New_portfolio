@@ -37,7 +37,8 @@ class Portfolio extends Component {
       <Link to="/portfolio/DigitalBuy"><img class="digitalB" src={require("../MainBot/digi.jpg")} /></Link>
       </Cards>  <Cards className="card" >
       <Link to="/portfolio/Roomers"><img class="digitalB"  src={require("../MainBot/room.jpg")} /> </Link>
-      </Cards>  <Cards className="card" ></Cards>
+      </Cards>  
+      {/* <Cards className="card" ></Cards> */}
     </Wrapper>
     <Footer/>
         </div>

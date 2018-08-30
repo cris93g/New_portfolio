@@ -29,12 +29,12 @@ const LeftUpper = styled.section`
 const RightUpper = styled.section`
   width: 50vh;
   margin: auto;
-
+  font-family: 'Questrial', sans-serif;
   height: 30vh;
 `;
 const LeftBottom = styled.section`
   width: 50vh;
-
+  font-family: 'Questrial', sans-serif;
   height: 40vh;
   margin: auto;
 `;
@@ -55,23 +55,25 @@ class Roomers extends Component {
           </LeftUpper>
           <RightUpper>
             <h2>WIREFRAME</h2>
-            <i>
-              Created Wireframe for our group application using Adobe XD to make
-              sure building of app went smoothly by knowing how the application
-              would look like towards the end.
-            </i>
+            <p>
+            Used Adobe XD on the
+beginning parts of making the application to create a clear wireframe,
+to have a layout on how the routing of every page would go.As
+well as help the team have a understanding of how the end product
+would look like.
+            </p>
           </RightUpper>
         </Wrapper>
         <BottomWrapper>
           <LeftBottom>
             <h2>ROOMERS</h2>
-            <i>
+            <p>
               Roomers was created with the idea of an app that could connect a
               user with potential roommates based on similar interests, budgets,
               and housing expectations. This site includes account creation,
               personal listing creation, a search feature for both users and
               rooms, and private messaging.
-            </i>
+            </p>
             <br />
             <p>
               {" "}
@@ -81,6 +83,7 @@ class Roomers extends Component {
               <br />- Implemented Express and Massive on top of Node.js
               <br />- Socket.io for feature similar to Facebook messenger
             </p>
+            <a href="http://roomers.space/#/"><h3>Visit Website</h3></a>
           </LeftBottom>
           <RightBottom>
             <img class="digitalB" src={require("./roomer.PNG")} />

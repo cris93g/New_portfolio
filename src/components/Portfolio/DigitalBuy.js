@@ -29,12 +29,12 @@ const RighttUpper = styled.section`
 const LeftUpper = styled.section`
   width: 50vh;
   margin: auto;
-
+  font-family: 'Questrial', sans-serif;
   height: 30vh;
 `;
 const RightBottom = styled.section`
   width: 50vh;
-
+  font-family: 'Questrial', sans-serif;
   height: 40vh;
   margin: auto;
 `;
@@ -53,11 +53,9 @@ class DigitalBuy extends Component {
         <Wrapper>
           <LeftUpper>
             <h2>Testing</h2>
-            <i>
-              Went through all endpoints from the back-end using Postman to make
-              sure all data that was returned back to myself and eventually the
-              user was accurate.
-            </i>
+            <p>
+             Used Postman to check different endpoints on the back-end of the Digital Buy application making sure all the data that was brought back by the server made with express was accurate.
+            </p>
           </LeftUpper>
           <RighttUpper>
             <img class="digitalB" src={require("./endPoint.PNG")} />
@@ -70,11 +68,11 @@ class DigitalBuy extends Component {
           </LeftBottom>
           <RightBottom>
             <h2>DigitalBuy</h2>
-            <i>
+            <p>
               DigitalBuy was created with the idea of an e-commerce website for
               different types of electronics from Desktops to Laptops to even
               something like Hardware.
-            </i>
+            </p>
             <br />
             <p>
               {" "}
@@ -84,6 +82,8 @@ class DigitalBuy extends Component {
               <br />- Implemented Express and Massive on top of Node.js
               <br />- Used Styled components to style different webpages
             </p>
+            <a href="http://www.digitalbuy.net/#/"><h3>Visit Website</h3></a>
+            <p>!!!! For the best experience open with mobile device</p>
           </RightBottom>
         </BottomWrapper>
 

@@ -9,7 +9,7 @@ const TopWrapper = styled.section`
   width: 100%;
   margin: auto;
   display: flex;
-  height:65vh;
+  height:60vh;
   background-color:white;`;
 
 
@@ -20,8 +20,9 @@ margin:auto;
 display:flex;
 `
 const LeftM=styled.section`
+font-family: 'Questrial', sans-serif;
 width:50%;
-
+font-size: 115%;
 
 heigh:100%;
 `
@@ -36,17 +37,17 @@ const Wrapper = styled.section`
   margin: auto;
   display: flex;
   height:50vh;
-  
+  font-family: 'Questrial', sans-serif;
   background-color:rgb(250, 250, 250);`
   ;
 
-const BottomWrapper = styled.section`
-width: 100%;
-margin: auto;
-display: flex;
-height:50vh;
+// const BottomWrapper = styled.section`
+// width: 100%;
+// margin: auto;
+// display: flex;
+// height:50vh;
 
-background-color:white;`;
+// background-color:white;`;
 
 const Circle = styled.section`
 width:150px;
@@ -80,8 +81,8 @@ class About extends Component {
            <Main>
              <LeftM>
               <h3>About Me</h3><br/>
-              <h4>I am developer based in  Dallas,Texas.</h4><br/>
-              <p>I enjoy disecting difficult problems into their simplest terms.<br/>When i'm not conding, i love to play video games like<br/> hearthstone and league of legends,or you can always find <br/>me reading a good book.If you ever meet me <br/>dont be afraid to say a good joke</p>
+              <h4>I am developer/designer based in  Dallas,Texas.</h4><br/>
+              <p>Throughout my life ever since I was a child,<br/> I had enjoyed buildings things or if they were<br/> already built  I would try to break them apart<br/>  to figure out how they were built and then <br/>rebuilt them. I didn't  know it back then, but that <br/>led me to have a passion for solving different<br/> problems and eventually led me to code.In the rare<br/> occasion you dont see me with my   laptop you will <br/>most likely see me reading a good book <br/>at a local Starbucks.  </p>
             </LeftM>
             <RightM>
             <img className="pro"   src={require("./prof.jpg")} />
@@ -103,7 +104,7 @@ class About extends Component {
             <Circle className="circ"><a href="https://www.npmjs.com/"><img class="digitalB" src={require("./npm.svg")} /></a></Circle>
             <Circle className="circ"><a href="https://git-scm.com/"><img class="digitalB" src={require("./git.svg")} /></a></Circle></UpperR>
             </Wrapper>
-          <BottomWrapper></BottomWrapper>
+          {/* <BottomWrapper></BottomWrapper> */}
 
 
           <Footer/>

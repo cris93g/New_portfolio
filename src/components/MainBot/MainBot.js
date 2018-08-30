@@ -21,10 +21,10 @@ margin-top:20px;
 margin-left:44%;
   width: 20%;
   height:8%;
-  
+  font-family: 'Questrial', sans-serif;
   align-items: center;
   /* display:flex; */
-
+  font-size: 120%;
 
 `
 const Container = styled.section`

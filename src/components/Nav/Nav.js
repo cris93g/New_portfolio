@@ -26,8 +26,12 @@ align-items: center;
  color:white;
  display:flex;
  margin:auto;
+ font-family: 'Questrial', sans-serif;
+ font-size: 120%;
+ 
  justify-content: space-around;
  a{ color: white }
+ a{text-decoration: none;}
 
 `;
 const Icons = styled.section`
@@ -53,8 +57,8 @@ class Nav extends Component {
                 <Brand><img class="logo"  src={require("./logo.png")} /></Brand>
                 
                 <Letters> <Link to="/"><div>Home</div></Link>
-                <Link to="/about"><div>about</div></Link>
-                <Link to="/portfolio"><div>portfolio</div></Link></Letters>
+                <Link to="/about"><div>About</div></Link>
+                <Link to="/portfolio"><div>Portfolio</div></Link></Letters>
                <Icons> <a href="mailto:christiandevwork@gmail.com"> <i class="material-icons">email</i></a>
                <a href="https://www.linkedin.com/in/cristian-gonzalez-2a0524169/"> <img  src={require("./linkedin.png")} />
                </a>  

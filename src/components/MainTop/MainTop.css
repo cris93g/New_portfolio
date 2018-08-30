@@ -11,10 +11,24 @@
 
 .tex{
     font-size: 300%;
+    font-family: 'Questrial', sans-serif;
 }
+.fa{
+    display: flex;
+    margin-top:1%;
+    margin-left:47%;
+}
+
 .fac{
     height:150px;
     width:150;
-    margin-top:40px;
-    margin-left:890px;
+    /* margin-top:40px;
+    margin-left:890px; */
+    /* margin-left:95vh; */
+
+}
+.bottomT{
+    font-family: 'Questrial', sans-serif;
+    font-size: 115%;
+    
 }
